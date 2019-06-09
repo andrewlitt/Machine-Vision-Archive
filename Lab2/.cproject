@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="cdt.managedbuild.config.gnu.mingw.exe.debug.485374653">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.mingw.exe.debug.485374653" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.mingw.exe.debug.485374653" name="Debug" parent="cdt.managedbuild.config.gnu.mingw.exe.debug">
+					<folderInfo id="cdt.managedbuild.config.gnu.mingw.exe.debug.485374653." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.mingw.exe.debug.726501773" name="MinGW GCC" superClass="cdt.managedbuild.toolchain.gnu.mingw.exe.debug">
+							<targetPlatform id="cdt.managedbuild.target.gnu.platform.mingw.exe.debug.693397483" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.mingw.exe.debug"/>
+							<builder buildPath="${workspace_loc:/Lab2}/Debug" id="cdt.managedbuild.tool.gnu.builder.mingw.base.1642527197" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CDT Internal Builder" superClass="cdt.managedbuild.tool.gnu.builder.mingw.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.mingw.exe.debug.1931710220" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.exe.debug">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1799600574" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.mingw.base.1849252091" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.1298873898" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug">
+								<option id="gnu.cpp.compiler.mingw.exe.debug.option.optimization.level.838281923" name="Optimization Level" superClass="gnu.cpp.compiler.mingw.exe.debug.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.mingw.exe.debug.option.debugging.level.909823001" name="Debug Level" superClass="gnu.cpp.compiler.mingw.exe.debug.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.include.paths.751737871" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;C:\opencv\opencv_3.4.0_Contrib\build\Debug\install\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\opencv\opencv_3.4.0_Contrib\build\Debug\install\include\opencv&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\opencv\opencv_3.4.0_Contrib\build\Debug\install\include\opencv2&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1234241294" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.134210336" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug">
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.mingw.exe.debug.option.optimization.level.59391450" name="Optimization Level" superClass="gnu.c.compiler.mingw.exe.debug.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option id="gnu.c.compiler.mingw.exe.debug.option.debugging.level.1330600480" name="Debug Level" superClass="gnu.c.compiler.mingw.exe.debug.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.1091086525" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;C:\opencv\opencv_3.4.0_Contrib\build\Debug\install\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\opencv\opencv_3.4.0_Contrib\build\Debug\install\include\opencv&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\opencv\opencv_3.4.0_Contrib\build\Debug\install\include\opencv2&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.660591123" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.debug.565413467" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.debug"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.debug.1691361111" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.debug">
+								<option id="gnu.cpp.link.option.paths.1193972823" superClass="gnu.cpp.link.option.paths" useByScannerDiscovery="false" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;C:\opencv\opencv_3.4.0_Contrib\build\Debug\install\x64\mingw\lib&quot;"/>
+								</option>
+								<option id="gnu.cpp.link.option.libs.106322546" superClass="gnu.cpp.link.option.libs" useByScannerDiscovery="false" valueType="libs">
+									<listOptionValue builtIn="false" value="opencv_aruco340d.dll"/>
+									<listOptionValue builtIn="false" value="opencv_bgsegm340d.dll"/>
+									<listOptionValue builtIn="false" value="opencv_bioinspired340d.dll"/>
+									<listOptionValue builtIn="false" value="opencv_calib3d340d.dll"/>
+									<listOptionValue builtIn="false" value="opencv_ccalib340d.dll"/>
+									<listOptionValue builtIn="false" value="opencv_core340d.dll"/>
+									<listOptionValue builtIn="false" value="opencv_datasets340d.dll"/>
+									<listOptionValue builtIn="false" value="opencv_dnn340d.dll"/>
+									<listOptionValue builtIn="false" value="opencv_dpm340d.dll"/>
+									<listOptionValue builtIn="false" value="opencv_face340d.dll"/>
+									<listOptionValue builtIn="false" value="opencv_features2d340d.dll"/>
+									<listOptionValue builtIn="false" value="opencv_flann340d.dll"/>
+									<listOptionValue builtIn="false" value="opencv_fuzzy340d.dll"/>
+									<listOptionValue builtIn="false" value="opencv_highgui340d.dll"/>
+									<listOptionValue builtIn="false" value="opencv_imgcodecs340d.dll"/>
+									<listOptionValue builtIn="false" value="opencv_imgproc340d.dll"/>
+									<listOptionValue builtIn="false" value="opencv_img_hash340d.dll"/>
+									<listOptionValue builtIn="false" value="opencv_line_descriptor340d.dll"/>
+									<listOptionValue builtIn="false" value="opencv_ml340d.dll"/>
+									<listOptionValue builtIn="false" value="opencv_objdetect340d.dll"/>
+									<listOptionValue builtIn="false" value="opencv_optflow340d.dll"/>
+									<listOptionValue builtIn="false" value="opencv_phase_unwrapping340d.dll"/>
+									<listOptionValue builtIn="false" value="opencv_photo340d.dll"/>
+									<listOptionValue builtIn="false" value="opencv_plot340d.dll"/>
+									<listOptionValue builtIn="false" value="opencv_reg340d.dll"/>
+									<listOptionValue builtIn="false" value="opencv_rgbd340d.dll"/>
+									<listOptionValue builtIn="false" value="opencv_saliency340d.dll"/>
+									<listOptionValue builtIn="false" value="opencv_shape340d.dll"/>
+									<listOptionValue builtIn="false" value="opencv_stereo340d.dll"/>
+									<listOptionValue builtIn="false" value="opencv_stitching340d.dll"/>
+									<listOptionValue builtIn="false" value="opencv_structured_light340d.dll"/>
+									<listOptionValue builtIn="false" value="opencv_superres340d.dll"/>
+									<listOptionValue builtIn="false" value="opencv_surface_matching340d.dll"/>
+									<listOptionValue builtIn="false" value="opencv_text340d.dll"/>
+									<listOptionValue builtIn="false" value="opencv_tracking340d.dll"/>
+									<listOptionValue builtIn="false" value="opencv_video340d.dll"/>
+									<listOptionValue builtIn="false" value="opencv_videoio340d.dll"/>
+									<listOptionValue builtIn="false" value="opencv_videostab340d.dll"/>
+									<listOptionValue builtIn="false" value="opencv_xfeatures2d340d.dll"/>
+									<listOptionValue builtIn="false" value="opencv_ximgproc340d.dll"/>
+									<listOptionValue builtIn="false" value="opencv_xobjdetect340d.dll"/>
+									<listOptionValue builtIn="false" value="opencv_xphoto340d.dll"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.340953182" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.config.gnu.mingw.exe.release.1150924076">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.mingw.exe.release.1150924076" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.mingw.exe.release.1150924076" name="Release" parent="cdt.managedbuild.config.gnu.mingw.exe.release">
+					<folderInfo id="cdt.managedbuild.config.gnu.mingw.exe.release.1150924076." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.mingw.exe.release.123174604" name="MinGW GCC" superClass="cdt.managedbuild.toolchain.gnu.mingw.exe.release">
+							<targetPlatform id="cdt.managedbuild.target.gnu.platform.mingw.exe.release.159992047" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.mingw.exe.release"/>
+							<builder buildPath="${workspace_loc:/Lab2}/Release" id="cdt.managedbuild.tool.gnu.builder.mingw.base.2141800398" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CDT Internal Builder" superClass="cdt.managedbuild.tool.gnu.builder.mingw.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.mingw.exe.release.1293621881" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.exe.release">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.487407002" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.mingw.base.682651726" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.release.669978131" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.release">
+								<option id="gnu.cpp.compiler.mingw.exe.release.option.optimization.level.564092674" name="Optimization Level" superClass="gnu.cpp.compiler.mingw.exe.release.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.mingw.exe.release.option.debugging.level.608678392" name="Debug Level" superClass="gnu.cpp.compiler.mingw.exe.release.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.include.paths.32577999" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;C:\opencv\opencv_3.4.0_Contrib\build\Release\install\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\opencv\opencv_3.4.0_Contrib\build\Release\install\include\opencv&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\opencv\opencv_3.4.0_Contrib\build\Release\install\include\opencv2&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1172256098" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.684975403" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release">
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.mingw.exe.release.option.optimization.level.1426770627" name="Optimization Level" superClass="gnu.c.compiler.mingw.exe.release.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option id="gnu.c.compiler.mingw.exe.release.option.debugging.level.1474641519" name="Debug Level" superClass="gnu.c.compiler.mingw.exe.release.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.1861259476" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;C:\opencv\opencv_3.4.0_Contrib\build\Release\install\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\opencv\opencv_3.4.0_Contrib\build\Release\install\include\opencv&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\opencv\opencv_3.4.0_Contrib\build\Release\install\include\opencv2&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.966816118" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.release.1356411010" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.release"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.release.840284433" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.release">
+								<option id="gnu.cpp.link.option.libs.865649601" superClass="gnu.cpp.link.option.libs" useByScannerDiscovery="false" valueType="libs">
+									<listOptionValue builtIn="false" value="opencv_aruco340.dll"/>
+									<listOptionValue builtIn="false" value="opencv_bgsegm340.dll"/>
+									<listOptionValue builtIn="false" value="opencv_bioinspired340.dll"/>
+									<listOptionValue builtIn="false" value="opencv_calib3d340.dll"/>
+									<listOptionValue builtIn="false" value="opencv_ccalib340.dll"/>
+									<listOptionValue builtIn="false" value="opencv_core340.dll"/>
+									<listOptionValue builtIn="false" value="opencv_datasets340.dll"/>
+									<listOptionValue builtIn="false" value="opencv_dnn340.dll"/>
+									<listOptionValue builtIn="false" value="opencv_dpm340.dll"/>
+									<listOptionValue builtIn="false" value="opencv_face340.dll"/>
+									<listOptionValue builtIn="false" value="opencv_features2d340.dll"/>
+									<listOptionValue builtIn="false" value="opencv_flann340.dll"/>
+									<listOptionValue builtIn="false" value="opencv_fuzzy340.dll"/>
+									<listOptionValue builtIn="false" value="opencv_highgui340.dll"/>
+									<listOptionValue builtIn="false" value="opencv_imgcodecs340.dll"/>
+									<listOptionValue builtIn="false" value="opencv_imgproc340.dll"/>
+									<listOptionValue builtIn="false" value="opencv_img_hash340.dll"/>
+									<listOptionValue builtIn="false" value="opencv_line_descriptor340.dll"/>
+									<listOptionValue builtIn="false" value="opencv_ml340.dll"/>
+									<listOptionValue builtIn="false" value="opencv_objdetect340.dll"/>
+									<listOptionValue builtIn="false" value="opencv_optflow340.dll"/>
+									<listOptionValue builtIn="false" value="opencv_phase_unwrapping340.dll"/>
+									<listOptionValue builtIn="false" value="opencv_photo340.dll"/>
+									<listOptionValue builtIn="false" value="opencv_plot340.dll"/>
+									<listOptionValue builtIn="false" value="opencv_reg340.dll"/>
+									<listOptionValue builtIn="false" value="opencv_rgbd340.dll"/>
+									<listOptionValue builtIn="false" value="opencv_saliency340.dll"/>
+									<listOptionValue builtIn="false" value="opencv_shape340.dll"/>
+									<listOptionValue builtIn="false" value="opencv_stereo340.dll"/>
+									<listOptionValue builtIn="false" value="opencv_stitching340.dll"/>
+									<listOptionValue builtIn="false" value="opencv_structured_light340.dll"/>
+									<listOptionValue builtIn="false" value="opencv_superres340.dll"/>
+									<listOptionValue builtIn="false" value="opencv_surface_matching340.dll"/>
+									<listOptionValue builtIn="false" value="opencv_text340.dll"/>
+									<listOptionValue builtIn="false" value="opencv_tracking340.dll"/>
+									<listOptionValue builtIn="false" value="opencv_video340.dll"/>
+									<listOptionValue builtIn="false" value="opencv_videoio340.dll"/>
+									<listOptionValue builtIn="false" value="opencv_videostab340.dll"/>
+									<listOptionValue builtIn="false" value="opencv_xfeatures2d340.dll"/>
+									<listOptionValue builtIn="false" value="opencv_ximgproc340.dll"/>
+									<listOptionValue builtIn="false" value="opencv_xobjdetect340.dll"/>
+									<listOptionValue builtIn="false" value="opencv_xphoto340.dll"/>
+								</option>
+								<option id="gnu.cpp.link.option.paths.1671826559" superClass="gnu.cpp.link.option.paths" useByScannerDiscovery="false" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;C:\opencv\opencv_3.4.0_Contrib\build\Release\install\x64\mingw\lib&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.494903929" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="Lab2.cdt.managedbuild.target.gnu.mingw.exe.396210412" name="Executable" projectType="cdt.managedbuild.target.gnu.mingw.exe"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.1150924076;cdt.managedbuild.config.gnu.mingw.exe.release.1150924076.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.684975403;cdt.managedbuild.tool.gnu.c.compiler.input.966816118">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.485374653;cdt.managedbuild.config.gnu.mingw.exe.debug.485374653.;cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.1298873898;cdt.managedbuild.tool.gnu.cpp.compiler.input.1234241294">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.1150924076;cdt.managedbuild.config.gnu.mingw.exe.release.1150924076.;cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.release.669978131;cdt.managedbuild.tool.gnu.cpp.compiler.input.1172256098">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.485374653;cdt.managedbuild.config.gnu.mingw.exe.debug.485374653.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.134210336;cdt.managedbuild.tool.gnu.c.compiler.input.660591123">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/Lab2"/>
+		</configuration>
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/Lab2"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cproject>
