@@ -1,5 +1,5 @@
 # Machine-Vision-Archive
-Collection of assignments done at university for a Machine Vision Course
+Collection of assignments done at university for a Machine Vision Course.
 
 Code written in C++, using OpenCV.
 
